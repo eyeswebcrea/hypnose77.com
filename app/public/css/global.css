@@ -1,0 +1,415 @@
+@import "fonctions.less";
+
+body {
+	background: #e8e8e8;
+
+}
+
+/* Reset style */
+
+h2.block-title {
+	margin: 0px;
+}
+
+div#header {
+	z-index: 2000;
+	position: relative;
+	background: #332e71;
+}
+
+div#header div.title img {
+	float: left;
+	padding-top: 5px;
+	margin-left: -20px;
+
+}
+div#header div.title div.textheader {
+	float: left;
+	padding-left: 0px;
+	margin-top: -10px;
+}
+
+div#header div.title div.textheader p {
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: -10px;	
+}
+
+.text-centered {
+	text-align: center;
+}
+div#header div.tel {
+	float:right;	
+}
+div#header div.tel img {
+	float: left;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+div#header div.tel p.telephone {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	float: right;
+	margin-right: 10px;
+	text-align: right;
+	margin-top: 25px;
+}
+
+
+	
+
+div#conteneur-bas-partie-milieu {
+	
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-top: 3px solid #332e71;
+		
+}
+
+div#footer, div#footer-content {
+	overflow: hidden;
+	background: #332e71;
+}
+
+ul.referencement li a { color: transparent !important; }
+
+div#footer-real p.text-centered {
+	font-size: 15px;
+	color: white;
+	font-style: italic;
+}
+/* Slider */
+div#bandeau div.bandeau-modif {
+	padding-left: 22px;
+	padding-right:22px;
+	background: url("/images/fondslider.png");
+	background-repeat: repeat-x
+}
+div#bandeau div.bandeau-modif div.slides, div.slides_container  { 
+	height: 230px;
+	width: 900px;	
+}
+div#bandeau div.bandeau-modif div.slides ul.pagination {
+	margin-bottom: -55px;
+	margin-left: 5px;
+	padding: 0 5px;
+}
+
+div.referencement_container div.block-R {
+	background-color: #c1bec0;
+}
+
+
+/* #email-link */
+div#footer-real {
+	position: relative;
+}
+
+div#footer-real p {
+	margin: 0px;
+	padding-bottom: 15px;
+}
+
+p#email-link {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+p#email-link a {
+	color: transparent;
+	font-size: 15px;
+}
+
+
+p#email-link a:hover {
+	color: white;
+}
+
+div#page {
+	
+}
+/*
+ * Les positionnement titres premiere page(index)
+ */
+
+/*
+ * La présentation du plan
+ */
+	.cadrageplan {
+		padding-top: 50px;
+	}
+/*
+ * La Description du lieu
+ */
+	div.parctexte {
+		font-style: italic;
+	}
+/*
+ * L'Affichage administratif
+ */
+	div.admin {
+		padding: 5px;
+		color: lightgrey;
+		text-transform: uppercase;
+		font-weight: bolder;
+		
+	}
+	div.art {
+		padding: 10px;
+		color: red;
+	}
+	div.art p.artdetail {
+		padding: 10px;
+		text-shadow: 1px 1px 2px darken(@rouge, 30%);
+		display: block;
+	}
+	div.expo {
+		padding: 15px;
+		color: blue;
+	}
+	div.expo p.expodetail {
+		padding: 5px;
+		text-shadow: 1px 1px 2px darken(@blue, 20%);
+	}
+	div.conf {
+		padding: 10px;
+		color: brown;
+	}
+	div.conf p.confdetail {
+		padding: 15px;
+		text-shadow: 1px 1px 2px darken(@brown, 50%);
+	}
+/* Menu compatible sub-menu */
+	div.menu li {
+		list-style: none;
+	}
+
+	div.menu > ul > li {
+		float: left;
+		position: relative;
+		padding-top: 10px;
+		padding-right: 4px;
+		
+	}
+	
+	div.menu > ul > li ul {
+		position: absolute;
+		left: 0px;
+		width: 200px;
+		padding: 0px;
+		display: none;
+	}
+	
+	div#body-content {
+		min-height: 600px;
+	}
+	
+	div.menu > ul > li:hover ul {
+		display: block;
+	} 
+	
+	div.menu  > ul > li > a {
+		border: 1px solid darken(#332e71, 30%);
+		-moz-border-radius: 0 0 0 30px;
+		-webkit-border-radius: 0 0 0 15px;
+		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		display: block;
+		text-decoration: none;
+		font-weight: bold;
+		text-transform: uppercase;
+		background: white;
+		color: #332e71;
+	}
+	
+	div#header div.menu > ul > li:hover > a {
+		background: #332e71;
+		color: white;
+	}
+	div#header div.menu > ul > li.current > a:visited {
+		border: 1px solid white;
+		-moz-border-radius: 0 0 0 30px;
+		-webkit-border-radius: 0 0 0 15px;
+		background: #332e71;
+		color: white;
+	}
+ul.referencement li a { color: transparent !important; }
+
+
+/*
+ *  Les formulaire
+ */
+
+fieldset {
+	padding: 0px;
+	border: none;
+	border-top: solid black 2px;
+}
+
+fieldset legend {
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+form div div, form p {
+	overflow: hidden;
+	text-align: left;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+form div div label, form p label {
+	text-align: right;
+	padding-right: 10px;
+	display: block;
+	width: 100px;
+	float: left;
+}
+
+form div div:hover label::before, form p:hover label::before {
+	content: ">> ";
+}
+
+
+form div div:hover , form p:hover {
+	background: black;
+	color: white;
+}
+
+input, textarea {
+	margin: 0px !important;
+	padding: 5px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+textarea {
+	height: 100px;
+}
+
+form div div:hover input, form div div:hover textarea, form p:hover input, form p:hover textarea {
+	border-color: white;
+}
+
+input[type=submit]
+{
+	float: right;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: solid gray 2px;
+}
+
+input[type=submit]:hover {
+	cursor: pointer;
+	border: solid black 2px;
+	background: gray;
+	color: white;
+}
+
+
+
+input[type=text],
+input[type=password]{
+	background: rgba(255, 255, 255, 0.9);
+	background:-moz-linear-gradient(90deg, #fff, #eee); /* Firefox */
+	background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff), color-stop(0.2, #fff)); /* Webkit */
+	border:1px solid #aaa;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:5px;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+	border-color:#093c75;
+	outline:none; /* Pour enlever le contour jaune lorsque l'on sÃ©lectionne un input dans Chrome */
+}
+
+input[type=submit],
+.submit{
+	background:orange;
+	background:-moz-linear-gradient(90deg, #0459b7, #08adff); /* Firefox */
+	background:-webkit-gradient(linear, left top, left bottom, from(#08adff), to(#0459b7)); /* Webkit */
+	border:1px solid #093c75;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-box-shadow:0 1px 0 #fff;
+	-webkit-box-shadow:0 1px 0 #fff;
+	color:#fff;
+	cursor:pointer;
+	font-family:Arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	margin-left:120px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0 1px 1px #333;
+	text-transform:uppercase;
+}
+
+input[type=submit]:hover,
+a.submit:hover{
+	background:#eee;
+	background:-moz-linear-gradient(90deg, #067cd3, #0bcdff);
+	background:-webkit-gradient(linear, left top, left bottom, from(#0bcdff), to(#067cd3));
+	border-color:#093c75;
+	text-decoration:none;
+}
+input[type=submit]:active,
+input[type=submit]:focus,
+a.submit:active,
+a.submit:focus{
+	background:#ccc;
+	background:-moz-linear-gradient(90deg, #0bcdff, #067cd3);
+	background:-webkit-gradient(linear, left top, left bottom, from(#067cd3), to(#0bcdff));
+	border-color:#093c75;
+	outline:none;
+}
+
+/* Les tableau */
+
+table {
+	border: solid black 2px;
+	margin: auto;
+}
+
+table tr td, table tr th {
+	padding: 5px;
+	text-align: center;
+}
+
+table tr, table tr a {
+	background: gray;
+	color: lightgray;
+}
+
+table tr:nth-child(odd), table tr:nth-child(odd) a {
+	background: lightgray;
+	color: gray;
+}
+
+table tr:hover, table tr:hover a {
+	cursor: pointer;
+	background: white; 
+	color: gray;
+}

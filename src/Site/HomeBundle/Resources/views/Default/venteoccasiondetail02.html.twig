@@ -1,0 +1,56 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	{% 
+		stylesheets output='css/ventedetail.css' 
+		'@SiteHomeBundle/Resources/public/css/ventedetail.css'
+	%}
+		<link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="all" title="no title" charset="utf-8"/>
+	{% endstylesheets %}
+	
+{% endblock %}
+
+{% block body %}
+	<div id="ventedetail" class="span-24" >
+		<div class="vento span-24" id="vento-detail">
+			<p class="titre-services">Vente Détail Occasion</p>
+		</div>
+		<div class="span-11">
+			<div class="span-11">
+		  			<div class="span-11 diaporamad-12-list">
+		    				{% set idRubriqueBandeau = 30 %}
+		    				<div class="diaporamad12 span-9 block block-9-line" id="diaporamad-12">
+		    					<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "forceResize" : true, "width" : 400, theme : "Slider", "height" : 300, texte: false }) | raw }}
+		    					</div>
+		    				</div>
+		    		</div>		
+		 	</div>
+		 </div>
+		 <div class="span-12">
+		  			<div class="span-12 texte22-list">
+		  					<div class="detail-logo span-11 block block-2-line" id="detail-logo-1">
+		    					<div class="block-content">
+		    						<img class="imagelogo" src="/images/detail/impressionimages.png" align="right">
+		    						<a href="#" onclick="javascript:imprimer_bloc('Descriptif', 'imprime_moi');" class="textelogo">Imprimer l'Annonce</a>
+		    					</div>
+		    				</div>	
+		    				
+		    		</div>
+		  			<div class="span-12 diaporamad-22-list">
+		  				<div id="imprime_moi">
+		    				
+		    				<div class="texte-diaporamad22 span-11 last block block-12-line" id="texte-diaporamad21-t">
+		    					{% for rubrique in boucleRubriques({ "idRubrique" : 30 }) %}						
+									<div class="content">{{ rubrique.getTexte() | raw }}</div>
+								{% endfor %}
+		    				</div>
+			    		</div>
+		    		</div>
+		    		
+		    		
+		</div>
+		
+	</div>
+{% endblock %}

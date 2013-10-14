@@ -1,0 +1,135 @@
+span.item-titre {
+	font-family: 'Prosto One', cursive; 
+	font-weight: bold;
+	 position: absolute; 
+	 bottom: 20px; 
+	 left: 2px;
+	 width: 100%;
+
+	 padding-top: 2px; 
+	 padding-bottom: 2px; 
+	 text-align: center; 
+	 text-decoration: none; 
+	 font-size: 20px; 
+	 display: block;
+	 background: purple; 
+	 color: white;
+}
+
+span.item-titre:first-letter {
+	font-size: 25px;
+}
+
+div.item:hover  span.item-titre
+{
+	background: #C3C3C3;
+	color: purple;
+}
+
+div.item a {
+	position: relative;
+	display: block;
+}
+
+div#ventedetail {
+	padding-left: 10px;
+	background: url("/images/fondblancgris2.png");
+	background-repeat: repeat-y;
+}
+div.vento p.titre-services {
+	background: url("/images/vehiculesneufs/fondventeneuf.png");
+	background-repeat: repeat-y;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 3px;
+	color: white;	
+}
+
+div.diaporamad11 div.block-content {
+	padding-left: 30px;
+	padding-top: 50px;		
+}
+div#diaporamad-11 div.block-content div.slides div.slides_container {
+	weight: 400px;
+	height: 400px;	
+}
+div.diaporamad11 div.block-content img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #332e71;
+	box-shadow: 3px 3px 0px #332e71;	
+}
+div#diaporamad-11 div.block-content div.slides ul.pagination {
+	margin-bottom: 60px;
+	margin-left: 2px;
+	padding: 0 5px;
+}
+div.diaporamad12 div.block-content {
+	padding-left: 30px;
+	padding-top: 50px;		
+}
+
+div.diaporamad12 div.block-content img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #332e71;
+	box-shadow: 3px 3px 0px #332e71;	
+}
+div#diaporamad-12 div.block-content div.slides ul.pagination {
+	margin-bottom: -130px;
+	margin-left: 90px;
+	padding: 0 5px;
+}
+
+div#detail-logo-1 div.block-content p.textelogo {
+	font-size: 13px;
+	margin-top: 23px;
+	color: white;
+	text-align: right;
+	margin-right: 80px;
+	text-shadow: 0px 0px 6px #000;
+		
+}
+div#detail-logo-1 div.block-content img.imagelogo {
+	margin-top: -18px;
+	padding-right: 15px;
+}
+
+div.texte-diaporamad21 div.content {
+	padding-left: 60px;
+	font-size: 15px;
+}
+div.texte-diaporamad22 div.content {
+	padding-left: 60px;
+	font-size: 15px;
+}
+div.listebase-lien {
+	padding-top:30px;
+	padding-left: 100px;
+}
+div.listebase-lien p.texte-lienpdf {
+	font-size: 20px;
+	color: #332e71;
+}
+div.listebase-lien a.pointeur-lienpdf {
+	font-size: 20px;
+	color: white;
+}
+div.garantie-lien {
+	padding-top: 30px;
+	padding-left: 100px;
+}
+div.garantie-lien p.garantie-texte {
+	font-size: 20px;
+	color: #332e71;
+}
+div.assistance-lien {
+	padding-top: 30px;
+	padding-left: 100px;
+}
+div.assistance-lien p.assistance-texte {
+	font-size: 20px;
+	color: #332e71;
+}

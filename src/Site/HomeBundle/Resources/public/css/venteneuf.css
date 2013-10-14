@@ -1,0 +1,397 @@
+span.item-titre {
+	font-family: 'Prosto One', cursive; 
+	font-weight: bold;
+	 position: absolute; 
+	 bottom: 20px; 
+	 left: 2px;
+	 width: 100%;
+
+	 padding-top: 2px; 
+	 padding-bottom: 2px; 
+	 text-align: center; 
+	 text-decoration: none; 
+	 font-size: 20px; 
+	 display: block;
+	 background: purple; 
+	 color: white;
+}
+
+span.item-titre:first-letter {
+	font-size: 25px;
+}
+
+div.item:hover  span.item-titre
+{
+	background: #C3C3C3;
+	color: purple;
+}
+
+div.item a {
+	position: relative;
+	display: block;
+}
+
+div#venteneuf {
+	padding-left: 10px;
+	background: url("/images/fondblancgris2.png");
+	background-repeat: repeat-y;
+}
+div.ventn {
+	
+}
+div.ventn p.titre-services {
+	background: url("/images/vehiculesneufs/fondventeneuf.png");
+	background-repeat: repeat-y;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 3px;
+	color: white;	
+}
+
+/*    bandeau local 
+ * 
+div#venteneuf div.slides_container, div.slides  { 
+	height: 400px;
+	width: 900px;	
+}			*/
+div.photo-list {
+	padding-top: 10px;
+}
+div.photo-item-1 div.block-content img {
+	padding-left: 15px;
+	padding-top: 10px;
+}
+div.photo-item-2 div.block-content img {
+	padding-left: 0px;
+	padding-top: 10px;
+}
+div.photo-item-3 div.block-content img {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+div.texte-item-1 div.block-content p.texte1 {
+	padding-top: 0px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-item-1 div.block-content p.texte2 {
+	padding-top: 0px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-item-1 div.block-content p.texte3 {
+	padding-top: 0px;
+	padding-left: 10px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-item-1 a.pointeur1 {
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size: 16px;
+	color: #332e71;
+}
+
+div.texte-item-2 div.block-content p.texte1 {
+	padding-top: 0px;
+	padding-left: 5px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-item-2 div.block-content p.texte2 {
+	padding-top: 0px;
+	padding-left: 5px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-item-2 div.block-content p.texte3 {
+	padding-top: 0px;
+	padding-left: 5px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-item-2 a.pointeur2 {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #332e71;
+}
+div.texte-item-3 div.block-content p.texte1 {
+	padding-top: 0px;
+	padding-left: 5px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-item-3 div.block-content p.texte2 {
+	padding-top: 0px;
+	padding-left: 5px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-item-3 div.block-content p.texte3 {
+	padding-top: 0px;
+	padding-left: 5px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-item-3 a.pointeur3 {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #332e71;
+}
+div.designventeneuf img {
+	padding-left: 40px;
+	margin-top: -20px;
+}
+div.photo-ligier {
+	padding-top: 20px;
+}
+div.photo-ligier-1 div.block-content img {
+	padding-top: 45px;
+	padding-left: 15px;			
+}
+
+div.photo-ligier-2 div.block-content img {
+	padding-left: 40px;
+	padding-top: 45px;
+}
+div.texte-ligier-1 div.block-content p.texteligier1 {
+	padding-top: 0px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-ligier-1 div.block-content p.texteligier2 {
+	padding-top: 0px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-ligier-1 div.block-content p.texteligier3 {
+	padding-top: 0px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-ligier-1 a.pointeur1 {
+	padding-top: 20px;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #332e71;
+}
+div.texte-ligier-2 div.block-content p.texteligier1 {
+	padding-top: 0px;
+	padding-left: 30px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-ligier-2 div.block-content p.texteligier2 {
+	padding-top: 0px;
+	padding-left: 30px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-ligier-2 div.block-content p.texteligier3 {
+	padding-top: 0px;
+	padding-left: 30px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+div.texte-ligier-2 a.pointeur2 {
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #332e71;
+}
+div.designventeneuf2 img {
+	padding-left: 40px;
+	margin-top: 10px;
+}
+div.photo-chatenay {
+	padding-top: 30px;
+}
+div.photo-chatenay div.block-content img {
+	padding-left: 20px;
+	padding-top: 50px;
+}
+div.texte-chatenay-1 {
+	padding-left: 30px;
+}
+div.texte-chatenay-1 div.block-content p.textechatenay1 {
+	padding-top: 50px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-chatenay-1 div.block-content p.textechatenay2 {
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-chatenay-1 div.block-content p.textechatenay3 {
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-chatenay-1 a.pointeur1 {
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #332e71;
+}
+div.designventeneuf4 img {
+	padding-left: 40px;
+	margin-top: 10px;
+}
+div.photo-kerry {
+	padding-top: 30px;
+}
+div.photo-kerry div.block-content img {
+	padding-left: 20px;
+	padding-top: 50px;
+}
+div.texte-kerry-1 {
+	padding-left: 30px;
+}
+div.texte-kerry-1 div.block-content p.textekerry1 {
+	padding-top: 50px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-kerry-1 div.block-content p.textekerry2 {
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.texte-kerry-1 div.block-content p.textekerry3 {
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-kerry-1 a.pointeur1 {
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #332e71;
+}
+div#diaporama-jdm-1 div.slides_container, div.slides  { 
+	height: 300px;
+	width: 400px;	
+}
+div#diaporama-jdm-1 div.block-content {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+div#diaporama-jdm-1 div.block-content img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #332e71; 
+}
+div#diaporama-jdm-1 div.block-content div.slides ul.pagination {
+	margin-bottom: -108px;
+}
+div.texte-diaporama1 {
+	padding-top: 80px;
+}
+div.texte-diaporama1  p.textejdm1 {
+	padding-left: 40px;
+	padding-top: 0px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-diaporama1  p.textejdm2 {
+	padding-left: 40px;
+	padding-top: 10px;
+	text-align: left;
+	font-size: 14px;
+}
+div.texte-diaporama1  p.textejdm3 {
+	padding-left: 40px;
+	padding-top: 10px;
+	text-align: left;
+	font-size: 14px;
+}
+div.texte-diaporama1 a.pointeur1 {
+	padding-top: 10px;
+	padding-left: 60px;
+	font-size: 14px;
+	color: #332e71;
+}
+div.diaporama2-liste {
+	padding-top: 50px;
+}
+div#diaporama-casalini-1 div.slides_container, div.slides  { 
+	height: 300px;
+	width: 400px;	
+}
+div#diaporama-casalini-1 div.block-content {
+	padding-left: 20px;
+	padding-top: 50px;
+}
+div#diaporama-casalini-1 div.block-content img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #332e71;
+}
+div#diaporama-casalini-1 {
+	position: relative;
+}
+div#diaporama-casalini-1 div.block-content div.slides ul.pagination {
+	margin-bottom: -108px;
+}
+
+div.texte-diaporama2 {
+	padding-top: 80px;
+}
+div.texte-diaporama2  p.textejdm1 {
+	padding-left: 40px;
+	padding-top: 30px;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.texte-diaporama2  p.textejdm2 {
+	padding-top: 10px;
+	padding-left: 40px;
+	text-align: left;
+	font-size: 14px;
+}
+div.texte-diaporama2 a.pointeur1 {
+	padding-top: 10px;
+	padding-left: 60px;
+	font-size: 14px;
+	color: #332e71;
+}

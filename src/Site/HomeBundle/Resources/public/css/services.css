@@ -1,0 +1,454 @@
+span.item-titre {
+	font-family: 'Prosto One', cursive; 
+	font-weight: bold;
+	 position: absolute; 
+	 bottom: 20px; 
+	 left: 2px;
+	 width: 100%;
+
+	 padding-top: 2px; 
+	 padding-bottom: 2px; 
+	 text-align: center; 
+	 text-decoration: none; 
+	 font-size: 20px; 
+	 display: block;
+	 background: purple; 
+	 color: white;
+}
+
+span.item-titre:first-letter {
+	font-size: 25px;
+}
+
+div.item:hover  span.item-titre
+{
+	background: #C3C3C3;
+	color: purple;
+}
+
+div.item a {
+	position: relative;
+	display: block;
+}
+
+div#services {
+	padding-left: 10px;
+	background: url("/images/fondblancgris2.png");
+	background-repeat: repeat-y;
+}
+div.serv p.titre-services {
+	background: url("/images/vehiculesneufs/fondventeneuf.png");
+	background-repeat: repeat-y;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 3px;
+	color: white;	
+	
+}
+div.premiere-ligne {
+	background-image: url("/images/services/fb1.png");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+div.photo-item-1 div.block-content img {
+	padding-left: 23px;
+	padding-top: 35px
+}
+div.texte-1 div.block-content p.texte1 {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+div.photo-prefecture div.block-content img {
+	padding-left: 85px;
+	padding-top: 25px;
+}
+
+div.deuxieme-groupe {
+	background-image: url("/images/services/servicefondblock2.png");
+	background-repeat: no-repeat;
+	background-position: -4px 0px;
+}
+div.texte2-2 div.block-content {
+	padding-left: 20px;
+	padding-top: 25px;
+}
+div.texte2-2 div.block-content p.texte2-21 {
+	font-size: 20px;
+	padding-left: 5px;
+	padding-top: 5px;
+	color: white;
+}
+div.texte2-2 div.block-content p.texte2-22 {
+	font-size: 20px;
+	padding-left: 35px;
+	margin-top: -25px;
+	color: white;
+}
+div.texte2-2 div.block-content p.texte2-23 {
+	font-size: 20px;
+	padding-left: 55px;
+	margin-top: -25px;
+	color: white;
+}
+div.texte-2 div.block-content p.texte2 {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+}
+div.photo-item-2-1 div.block-content img {
+	margin-left: -10px;
+	padding-top: 35px;
+}
+div.photo-item-2-2 div.block-content img {
+	padding-left: 25px;
+	padding-top: 35px;
+}
+
+div.texte-32 div.block-content  p.texte3-3 {
+	padding-top: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+div.photo-item-3 div.block-content img {
+	padding-left: 18px;
+	margin-top: -3px;
+}
+div.texte-3 div.block-content {
+	
+}
+div.texte-3 div.block-content p.texte31 {
+	padding-top: 0px;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	text-decoration: underline;
+}
+div.texte-3 div.block-content p.texte32 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-3 div.block-content p.texte33 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-3 div.block-content p.texte34 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+
+div.logo-assureur div.block-content img {
+	padding-left: 20px;
+	margin-top: -3px;
+}
+
+div.photo-item-4 div.block-content img {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+div.texte-4 div.block-content {
+	
+}
+div.texte-4 div.block-content p.texte41 {
+	padding-top: 10px;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	text-decoration: underline;
+}
+div.texte-4 div.block-content p.texte42 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-4 div.block-content p.texte43 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-4 div.block-content p.texte44 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+
+div.photo-item-2-d div.block-content img {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+
+div.photo-list-03 {
+	background-image: url("/images/services/servicefb3.png");
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+div.photo-item-6 div.block-content img {
+	padding-left: 20px;
+	padding-top: 14px;
+}
+div.texte-6 div.block-content {
+	padding-top: 10px;
+}
+div.texte-6 div.block-content a.texte61 {
+	padding-top: 0px;
+	text-align: left;
+	font-size: 18px;
+	color: blue;
+	text-decoration: underline;
+}
+div.texte-6 div.block-content p.texte62 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: 5px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-6 div.block-content p.texte63 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-6 div.block-content p.texte64 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+
+div.photo-item-6-d div.block-content img {
+	padding-left: 45px;
+	padding-top: 17px;
+}
+
+
+div.photo-list-04 {
+	background-image: url("/images/services/servicefb4.png");
+	background-repeat: no-repeat;
+	background-position: 6px 0px;
+}
+div.photo-item-7 div.block-content img {
+	padding-left: 20px;
+	padding-top: 14px;
+}
+div.texte-7 div.block-content {
+	padding-top: 10px;
+}
+div.texte-7 div.block-content p.texte71 {
+	padding-top: 0px;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	text-decoration: underline;
+}
+div.texte-7 div.block-content p.texte72 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-7 div.block-content p.texte73 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-7 div.block-content p.texte74 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+
+div.photo-item-7-d div.block-content p.texte75 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: 18px;
+	font-size: 20px;
+	color: black;
+}
+div.photo-item-7-d div.block-content p.texte76 {
+	text-align: left;
+	padding-left: 90px;
+	margin-top: -16px;
+	font-size: 15px;
+	color: black;
+}
+div.photo-item-7-d div.block-content p.texte77 {
+	text-align: left;
+	padding-left: 90px;
+	margin-top: -5px;
+	font-size: 15px;
+	color: black;
+}
+
+
+div.photo-list-05 {
+	background-image: url("/images/services/servicefb5.png");
+	background-repeat: no-repeat;
+	background-position: 4px 0px;
+}
+
+div.photo-item-8 div.block-content img {
+	padding-left: 23px;
+	padding-top: 18px;
+}
+div.texte-8 div.block-content {
+	padding-top: 10px;
+}
+div.texte-8 div.block-content a.texte81 {
+	padding-top: 0px;
+	text-align: left;
+	font-size: 18px;
+	color: blue;
+	text-decoration: underline;
+}
+div.texte-8 div.block-content p.texte82 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: 7px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-8 div.block-content p.texte83 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-8 div.block-content p.texte84 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -20px;
+	font-size: 15px;
+	color: black;
+}
+
+div.photo-item-8-d div.block-content img {
+	padding-left: 53px;
+	padding-top: 37px;
+}
+
+
+div.photo-item-9 div.block-content img {
+	padding-left: 24px;
+	padding-top: 22px;
+}
+div.texte-9 div.block-content {
+	padding-top: 10px;
+}
+div.texte-9 div.block-content p.texte91 {
+	padding-top: 0px;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	text-decoration: underline;
+}
+div.texte-9 div.block-content p.texte92 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-9 div.block-content p.texte93 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-9 div.block-content p.texte94 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+
+div.photo-item-9-d div.block-content img {
+	padding-left: 52px;
+	padding-top: 25px;
+}
+
+
+div.photo-list-06 {
+	background-image: url("/images/services/servicefb6.png");
+	background-repeat: no-repeat;
+	background-position: 2px 0px;
+}
+div.photo-list-10 {
+	background-image: url("/images/services/servicefb6.png");
+	background-repeat: no-repeat;
+	background-position: 2px 0px;
+}
+div.photo-item-10 div.block-content img {
+	padding-left: 30px;
+	padding-top: 22px;
+}
+div.texte-10 div.block-content {
+	padding-top: 10px;
+}
+div.texte-10 div.block-content p.textea1 {
+	padding-top: 0px;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	text-decoration: underline;
+}
+div.texte-10 div.block-content p.textea2 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-10 div.block-content p.textea3 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+div.texte-10 div.block-content p.textea4 {
+	text-align: left;
+	padding-left: 60px;
+	margin-top: -24px;
+	font-size: 15px;
+	color: black;
+}
+
+div.photo-item-10-d div.block-content img {
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
+

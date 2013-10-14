@@ -1,0 +1,32 @@
+imports:
+    - { resource: config.yml }
+
+framework:
+    router:   { resource: "%kernel.root_dir%/config/routing_dev.yml" }
+    profiler: { only_exceptions: false }
+
+web_profiler:
+    toolbar: true
+    intercept_redirects: false
+
+monolog:
+    handlers:
+        main:
+            type:  stream
+            path:  %kernel.logs_dir%/%kernel.environment%.log
+            level: debug
+        firephp:
+            type:  firephp
+            level: info
+
+assetic:
+    use_controller: true
+
+# Doctrine Configuration
+doctrine:
+    dbal:
+        path: %kernel.root_dir%/../spip/config/bases/dev.sqlite
+
+# Spip acces content bundle configuration
+spip_acces_content:
+    img_dir: IMG_DEV/

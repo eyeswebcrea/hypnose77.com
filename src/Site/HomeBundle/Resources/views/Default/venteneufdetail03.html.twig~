@@ -1,0 +1,71 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	{% 
+		stylesheets output='css/ventedetail.css' 
+		'@SiteHomeBundle/Resources/public/css/ventedetail.css'
+	%}
+		<link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="all" title="no title" charset="utf-8"/>
+	{% endstylesheets %}
+	
+{% endblock %}
+
+{% block body %}
+	<div id="ventedetail" class="span-24" >
+		<div class="vento span-24" id="vento-detail">
+			<p class="titre-services">Vente Neuf Détail</p>
+		</div>
+		<div class="span-11">
+			<div class="span-11">
+		  			<div class="span-11 diaporamad-11-list">
+		    				{% set idRubriqueBandeau = 40 %}
+		    				<div class="diaporamad11 span-9 block block-9-line" id="diaporamad-11">
+		    					<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "forceResize" : true, "width" : 400, theme : "Slider", "height" : 300, texte: false }) | raw }}
+		    					</div>
+		    				</div>
+		    		</div>		
+		 	</div>
+		 </div>
+		 <div class="span-12">
+		  			<div class="span-12 texte21-list">
+		  					<div class="detail-logo span-11 block block-2-line" id="detail-logo-1">
+		    					<div class="block-content">
+		    						<img class="imagelogo" src="/images/detail/impressionimages.png" align="right">
+<a href="#" onclick="javascript:imprimer_bloc('Descriptif', 'imprime_moi');" class="textelogo">Imprimer l'Annonce</a>
+		    					</div>
+		    				</div>	
+		    				
+		    		</div>
+		  			<div class="span-12 diaporamad-21-list">
+		    				
+		    				<div class="texte-diaporamad21 span-11 last block block-12-line" id="texte-diaporamad21-t">
+		    					{% for rubrique in boucleRubriques({ "idRubrique" : 40 }) %}						
+									<div class="content">{{ rubrique.getTexte() | raw }}</div>
+								{% endfor %}
+		    				</div>
+		    		</div>
+		    		
+		    	</div>	
+		  			<div class="span-24 listebasse-list">
+		    				
+		    				<div class="listebase-lien span-4 last block block-5-line" id="lienpdf-1-1">
+		    					
+		    					<a class="pointeur-lienpdf" href="/plaquette_m8_2013.pdf">Brochure et Fiche Technique (pdf)</a>
+		    				</div>
+
+		    				<div class="garantie-lien span-6 last block block-5-line" id="garantie-1-2">
+		    					<img class="garantie-photo" src="/images/detail/garantie2ans.png" >
+		    					
+		    				</div>
+		    				
+		    				<div class="assistance-lien span-5 last block block-5-line" id="assistance-1-2">
+		    					<img class="assistance-photo" src="/images/detail/assistance.png" >
+		    					
+		    				</div>
+		    		</div>
+		
+		
+	</div>
+{% endblock %}

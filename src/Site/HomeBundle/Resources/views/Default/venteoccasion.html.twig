@@ -1,0 +1,107 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	{% 
+		stylesheets output='css/venteoccasion.css' 
+		'@SiteHomeBundle/Resources/public/css/venteoccasion.css'
+	%}
+		<link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="all" title="no title" charset="utf-8"/>
+	{% endstylesheets %}
+	
+{% endblock %}
+
+{% block body %}
+	<div id="venteoccasion" class="span-24">
+		<div class="vento span-24" id="vento-occasion">
+			<p class="titre-services">Vente Véhicules d'Occasion</p>
+		</div>
+		<div class="span-11">
+			<div class="span-11">
+		  			<div class="span-11 diaporama11-list">
+		    				{% set idRubriqueBandeau = 11 %}
+		    				<div class="diaporama11 span-9 block block-7-line" id="diaporama-11">
+		    					<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "forceResize" : true, "width" : 400, theme : "Slider", "height" : 300, texte: false }) | raw }}
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-11 diaporama11-liste-2">
+		    				<div class="texte-diaporama11 span-9 last block block-4-line" id="texte-casalini-1">
+		    					{% for rubrique in boucleRubriques({ "idRubrique" : 11 }) %}						
+									<div class="content">{{ rubrique.getTexte() | raw }}</div>
+								{% endfor %}
+									<div class="pointeur">
+		    							<a class="pointeur11" href="vente-occasion-detail01">En savoir plus</a>
+		    						</div>
+		    				</div>
+		    		</div>
+		 	</div>
+		 </div>
+		 <div class="span-12">
+		  			<div class="span-12 texte21-list">
+		  					<div class="rachat-reprise span-7 block block-2-line" id="texte21">
+		    					<div class="block-content">
+		    						<p class="texte21">Rachat / Reprise / Dépot Vente
+		    					</div>
+		    				</div>	
+		    				<div class="rachat-contact span-5 last block block-2-line" id="texte22">
+		    					<div class="block-content">
+		    						<p class="texte22">Descriptif synthétique</p>	
+		    					</div>
+		    				</div>
+		    		</div>
+		  			<div class="span-12 diaporama21-list">
+		    				{% set idRubriqueBandeau = 12 %}
+		    				<div class="diaporama21 span-7 block block-5-line" id="diaporama-jdm-21">
+		    						<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "forceResize" : true, "width" : 271, "height" : 200, texte: false }) | raw }}
+		    						</div>
+		    				</div>
+		    				<div class="texte-diaporama21 span-4 last block block-5-line" id="texte-jdm-4">
+		    					{% for rubrique in boucleRubriques({ "idRubrique" : 12 }) %}						
+									<div class="content">{{ rubrique.getTexte() | raw }}</div>
+								{% endfor %}
+									<div class="pointeur">
+		    							<a class="pointeur21" href="vente-occasion-detail02">En savoir plus</a>
+		    						</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-12 diaporama22-list">
+		    				{% set idRubriqueBandeau = 13 %}
+		    				<div class="diaporama22 span-7 block block-5-line" id="diaporama-jdm-22">
+		    						<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "width" : 271, "height" : 200, texte: false }) | raw }}
+		    						</div>
+		    				</div>
+		    				<div class="texte-diaporama22 span-4 last block block-5-line" id="texte-jdm-2">
+		    					{% for rubrique in boucleRubriques({ "idRubrique" : 13 }) %}						
+									<div class="content">{{ rubrique.getTexte() | raw }}</div>
+								{% endfor %}
+									<div class="pointeur">
+		    							<a class="pointeur22" href="vente-occasion-detail03">En savoir plus</a>
+		    						</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-12 diaporama23-list">
+		    				{% set idRubriqueBandeau = 14 %}
+		    				<div class="diaporama23 span-7 block block-5-line" id="diaporama-jdm-23">
+		    						<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "width" : 271, "height" : 200, texte: false }) | raw }}
+		    						</div>
+		    				</div>
+		    				<div class="texte-diaporama23 span-4 last block block-5-line" id="texte-jdm-3">
+		    					{% for rubrique in boucleRubriques({ "idRubrique" : 14 }) %}						
+									<div class="content">{{ rubrique.getTexte() | raw }}</div>
+								{% endfor %}
+									<div class="pointeur">
+		    							<a class="pointeur23" href="vente-occasion-detail04">En savoir plus</a>
+		    						</div>
+		    				</div>
+		    		</div>
+		</div>
+		
+	</div>
+{% endblock %}
+
+		    			

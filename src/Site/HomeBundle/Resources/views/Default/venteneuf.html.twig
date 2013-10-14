@@ -1,0 +1,169 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	{% 
+		stylesheets output='css/venteneuf.css' 
+		'@SiteHomeBundle/Resources/public/css/venteneuf.css'
+	%}
+		<link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="all" title="no title" charset="utf-8"/>
+	{% endstylesheets %}
+	
+{% endblock %}
+
+{% block body %}
+	<div id="venteneuf" class="span-24">
+		<div class="ventn span-24">
+			<p class="titre-services">Vente Véhicules Neufs</p>
+		</div>
+		<div class="span-12">
+		    		<div class="span-12 photo-list">
+		    				<div class="photo-item-1 span-4 block block-2-line" id="photo-1">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/F8Cmicro1.png" alt="micro1">
+		    					</div>
+		    				</div>
+		    				<div class="photo-item-2 span-3 block block-2-line" id="photo-2">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/MGmicro1.png" alt="micro2">	
+		    					</div>
+		    				</div>
+		    				<div class="photo-item-3 span-4 block block-2-line" id="photo-3">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/M8micro1.png" alt="micro3">
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-13 texte-liste">
+		    				<div class="texte-item-1 span-4 block block-4-line" id="texte1-1">
+		    					<div class="block-content">
+		    						<p class="texte1">Marque : Microcar</p>
+		    						<p class="texte2">Modèle : F8C</p>
+		    						<p class="texte3">Prix à partir de 12390€</p>
+		    						<a class="pointeur1" href="vente-neuf-detail01">Voir le détail</a>
+		    					</div>
+		    				</div>
+		    				<div class="texte-item-2 span-4 block block-4-line" id="texte1-2">
+		    					<div class="block-content">
+		    						<p class="texte1">Marque : Microcar</p>
+		    						<p class="texte2">Modèle : MGO</p>
+		    						<p class="texte3">Prix à partir de 9990€</p>
+		    						<a class="pointeur2" href="vente-neuf-detail02">Voir le détail</a>	
+		    					</div>
+		    				</div>
+		    				<div class="texte-item-3 span-4 block block-4-line" id="texte1-3">
+		    					<div class="block-content">
+		    						<p class="texte1">Marque : Microcar</p>
+		    						<p class="texte2">Modèle : M8</p>
+		    						<p class="texte3">Prix à partir de 11890€</p>
+		    						<a class="pointeur3" href="vente-neuf-detail03">Voir le détail</a>	
+		    					</div>
+		    				</div>
+		    		</div>	
+		    		<div class="designventeneuf span12 block block-2-line">		
+		    				<img  src="/images/vehiculesneufs/lacet1.png" alt="design">
+		    		</div>	
+		    		<div class="span-12 photo-ligier">
+		    				<div class="photo-ligier-1 span-5 block block-4-line" id="ligier-1">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/IXOneufmoyen.png" alt="ligier1">
+		    					</div>
+		    				</div>
+		    				<div class="photo-ligier-2 span-6 block block-4-line" id="ligier-2">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/JS50moyen neuf.png" alt="ligier2">	
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-12 texte-ligier">
+		    				<div class="texte-ligier-1 span-5 block block-3-line" id="texteligier-1">
+		    					<div class="block-content">
+		    						<p class="texteligier1">Marque : Ligier</p>
+		    						<p class="texteligier2">Modéle : IXO</p>
+		    						<p class="texteligier3">Prix à partir de 9990€</p>
+		    						<a class="pointeur1" href="vente-neuf-detail04">Voir le détail</a>
+		    					</div>
+		    				</div>
+		    				<div class="texte-ligier-2 span-6 block block-3-line" id="texteligier-2">
+		    					<div class="block-content">
+		    						<p class="texteligier1">Marque : Ligier</p>
+		    						<p class="texteligier2">Modéle : JS50</p>
+		    						<p class="texteligier3">Prix à partir de 11490€</p>
+		    						<a class="pointeur2" href="vente-neuf-detail05">Voir le détail</a>	
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="designventeneuf2 span12 block block-2-line">		
+		    				<img  src="/images/vehiculesneufs/lacet1.png" alt="design">
+		    		</div>	
+		    		<div class="span-12 photo-chatenay">
+		    				<div class="photo-chatenay-1 span-6 block block-5-line" id="chatenay-1">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/CH26V2.png" alt="chatenay1">
+		    					</div>
+		    				</div>
+		    				<div class="texte-chatenay-1 span-5 block last  block-5-line" id="chatenay-2">
+		    					<div class="block-content">
+		    						<p class="textechatenay1">Marque : Chatenet</p>
+		    						<p class="textechatenay2">Modéle : CH26-V2</p>
+		    						<p class="textechatenay3">Prix à partir de 12190€</p>
+		    						<a class="pointeur1" href="vente-neuf-detail06">Voir le détail</a>	
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="designventeneuf4 span12 block block-2-line">		
+		    				<img  src="/images/vehiculesneufs/lacet1.png" alt="design">
+		    		</div>	
+		    		<div class="span-12 photo-kerry">
+		    				<div class="photo-kerry-1 span-6 block block-5-line" id="kerry-1">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/kerry.png" alt="chatenay1">
+		    					</div>
+		    				</div>
+		    				<div class="texte-kerry-1 span-5 block last  block-5-line" id="kerry-2">
+		    					<div class="block-content">
+		    						<p class="textekerry1">Marque : Casalini</p>
+		    						<p class="textekerry2">Modéle : Kerry</p>
+		    						<p class="textekerry3">Prix à partir de 10350€</p>
+		    						<a class="pointeur1" href="vente-neuf-detail09">Voir le détail</a>	
+		    					</div>
+		    				</div>
+		    		</div>				
+		</div>
+		<div class="span-11">
+		  			<div class="span-11 diaporama1-list">
+		    				{% set idRubriqueBandeau = 8 %}
+		    				<div class="diaporama1 span-11 block block-6-line" id="diaporama-jdm-1">
+		    					<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "forceResize" : true, "width" : 400,  "height" : 300, texte: false }) | raw }}
+		    					</div>
+		    				</div>
+		    				<div class="texte-diaporama1 span-11  block block-3-line last" id="texte-jdm-1">
+		    					<p class="textejdm1">Marque : JDM  Modéle : XEOS</p>
+		    					<p class="textejdm2">Prix à partir de 10990€</p>
+		    					<a class="pointeur1" href="vente-neuf-detail07">Voir le détail</a>
+		    				</div>
+		    		</div>
+		    		<div class="designventeneuf3 span11 block block-2-line">		
+		    				<img  src="/images/vehiculesneufs/lacet1.png" alt="design">
+		    		</div>	
+		    		<div class="span-11 diaporama2-liste">
+		    				{% set idRubriqueBandeau = 9 %}
+		    				<div class="diaporama2 span-11 block block-6-line" id="diaporama-casalini-1">
+		    					<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "forceResize" : true, "width" : 400, "height" : 300, texte: false }) | raw }}
+		    					</div>
+		    				</div>
+		    				<div class="texte-diaporama2 span-11 last block block-4-line" id="texte-casalini-1">
+		    					<p class="textejdm1">Marque : Casalini  Modéle : M12</p>
+		    					<p class="textejdm2">Prix à partir de 11147€</p>
+		    					<a class="pointeur1" href="vente-neuf-detail08">Voir le détail</a>
+		    				</div>
+		    		</div>		
+		  </div>  		
+	</div>
+{% endblock %}
+
+
+
+

@@ -1,0 +1,128 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+	{{ parent() }}
+	{% 
+		stylesheets output='css/ventedetail.css' 
+		'@SiteHomeBundle/Resources/public/css/ventedetail.css'
+	%}
+		<link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="all" title="no title" charset="utf-8"/>
+	{% endstylesheets %}
+	
+{% endblock %}
+
+{% block body %}
+	<div id="ventedetail" class="span-24" >
+		<div class="span-18">
+		    		<div class="span-18 photo-list">
+		    				<div class="photo-item-1 span-6 block block-2-line" id="photo-1">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/ecusson.png" alt="micro1">
+		    					</div>
+		    				</div>
+		    				<div class="texte-1 span-11 block block-2-line" id="texte1-1">
+		    					<div class="block-content">
+		    						<p class="texte1">Présentation Société</p>
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-18 photo-list">		
+		    				<div class="photo-item-2 span-6 block block-3-line" id="photo-2">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/ecusson.png" alt="micro2">	
+		    					</div>
+		    				</div>
+		    				<div class="texte-2 span-11 block block-3-line" id="texte2-1">
+		    					<div class="block-content">
+		    						<p class="texte2">Service Reparation Toutes Marques</p>	
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-18 photo-list">		
+		    				<div class="photo-item-3 span-6 block block-3-line" id="photo-3">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/ecusson.png" alt="micro3">
+		    					</div>
+		    				</div>
+		    				<div class="texte-3 span-11 block block-3-line" id="texte3-1">
+		    					<div class="block-content">
+		    						<p class="texte3">Exemples concrets petites pannes</p>	
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-19 photo-list">		
+		    				<div class="photo-item-4 span-6 block block-3-line" id="photo-4">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/ecusson.png" alt="micro3">
+		    					</div>
+		    				</div>
+		    				<div class="texte-4 span-11 block block-3-line" id="texte4-1">
+		    					<div class="block-content">
+		    						<p class="texte4">Exemples piéces détachées</p>	
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-18 photo-list">		
+		    				<div class="location span-6 block block-3-line" id="location-1">
+		    					<div class="block-content">
+		    						<p class="location1">Location</p>
+		    					</div>
+		    				</div>
+		    				<div class="texte-5 span-11 block block-3-line" id="texte5-1">
+		    					<div class="block-content">
+		    						<p class="texte5">Véhicules récents Tous Budgets</p>	
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-18 photo-list">
+		    				<div class="depannage span-6 block block-3-line" id="depannage-1">
+		    					<div class="block-content">
+		    						<p class="depannage1">Dépannage 24-24 7-7</p>
+		    					</div>
+		    				</div>
+		    				<div class="texte-6 span-11 block block-3-line" id="texte6-1">
+		    					<div class="block-content">
+		    						<p class="texte6">Dépannage dans l'heure sur l'île de France</p>	
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-18 photo-list">
+		    				<div class="carte-grise span-6 block block-3-line" id="carte-grise-1">
+		    					<div class="block-content">
+		    						<p class="carte-grise-1">Carte Grise</p>
+		    					</div>
+		    				</div>
+		    				<div class="texte-7 span-11 block block-3-line" id="texte7-1">
+		    					<div class="block-content">
+		    						<p class="texte7">Obtention carte grise</p>	
+		    					</div>
+		    				</div>
+		    		</div>
+		   </div>
+		 
+			<div class="span-5">
+				<div class="span-5 divers-liste">
+		  					<div class="photo-prefecture span-4 last block block-2-line" id="photo3-1">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/ecusson.png" alt="prefecture1">
+		    					</div>
+		    				</div>
+		    				<div class="texte32 span-4 last block block-3-line" id="texte-32">
+		    					<div class="block-content">
+		    						<p class="texte3-2">Numéro d'agréement</p>	
+		    					</div>
+		    				</div>
+		    				<div class="logo-assureur span-4 last block block-8-line" id="assureur-3">
+		    					<div class="block-content">
+		    						<img src="/images/vehiculesneufs/ecusson.png" alt="assureur">
+		    					</div>
+		    				</div>
+		    				<div class="logo-europe-assistance span-4 last block block-7-line" id="europe-assistance">
+		    					<div class="block-content">
+		    						<p class="texte3-3">Message Europe Assistance et agréement</p>
+		    					</div>
+		    				</div>
+		  		</div>  		
+			</div>
+	</div>
+{% endblock %}

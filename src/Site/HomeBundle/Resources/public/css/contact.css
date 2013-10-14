@@ -1,0 +1,36 @@
+div#contact h2 {
+	color: white;
+	border-bottom: solid #C3C3C3 2px;
+}
+
+div#conteneur-bandeau {
+	display: none;
+}
+
+div#contact {
+	background: lightgrey;
+}
+
+div#infodiverses p.texte1 {
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;	
+}
+div#infodiverses p.texte2 {
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: normal;	
+}
+div#infodiverses p.texte3 {
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: normal;	
+}
+div#infodiverses p.texte4 {
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: normal;	
+}
+div#plan-acces img {
+	
+}

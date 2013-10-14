@@ -1,0 +1,73 @@
+SiteHomeBundle_homepage:
+    pattern:  /
+    defaults: { _controller:SiteHomeBundle:Default:index }
+
+SiteHomeBundle_contact:
+    pattern: /contact 
+    defaults: { _controller:SiteHomeBundle:Default:viewPageContact }
+    
+SiteHomeBundle_services:
+    pattern: /services
+    defaults: { _controller:SiteHomeBundle:Default:viewPageServices }
+    
+SiteHomeBundle_venteneuf:
+    pattern: /vente-neuf
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeuf }
+    
+SiteHomeBundle_venteoccasion:
+    pattern: /vente-occasion
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteOccasion }
+    
+SiteHomeBundle_venteoccasiondetail01:
+    pattern: /vente-occasion-detail01
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteOccasionDetail01 }
+
+SiteHomeBundle_venteoccasiondetail02:
+    pattern: /vente-occasion-detail02
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteOccasionDetail02 }
+    
+SiteHomeBundle_venteoccasiondetail03:
+    pattern: /vente-occasion-detail03
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteOccasionDetail03 }
+    
+SiteHomeBundle_venteoccasiondetail04:
+    pattern: /vente-occasion-detail04
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteOccasionDetail04 }       
+    
+SiteHomeBundle_venteneufdetail01:
+    pattern: /vente-neuf-detail01
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail01 }
+
+SiteHomeBundle_venteneufdetail02:
+    pattern: /vente-neuf-detail02
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail02 }
+
+SiteHomeBundle_venteneufdetail03:
+    pattern: /vente-neuf-detail03
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail03 }
+    
+SiteHomeBundle_venteneufdetail04:
+    pattern: /vente-neuf-detail04
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail04 }
+    
+SiteHomeBundle_venteneufdetail05:
+    pattern: /vente-neuf-detail05
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail05 } 
+
+SiteHomeBundle_venteneufdetail06:
+    pattern: /vente-neuf-detail06
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail06 }
+    
+SiteHomeBundle_venteneufdetail07:
+    pattern: /vente-neuf-detail07
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail07 }
+    
+SiteHomeBundle_venteneufdetail08:
+    pattern: /vente-neuf-detail08
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail08 }
+    
+SiteHomeBundle_venteneufdetail09:
+    pattern: /vente-neuf-detail09
+    defaults: { _controller:SiteHomeBundle:Default:viewPageVenteNeufDetail09 }
+    
+   

@@ -1,0 +1,198 @@
+span.item-titre {
+	font-family: 'Prosto One', cursive; 
+	font-weight: bold;
+	 position: absolute; 
+	 bottom: 20px; 
+	 left: 2px;
+	 width: 100%;
+
+	 padding-top: 2px; 
+	 padding-bottom: 2px; 
+	 text-align: center; 
+	 text-decoration: none; 
+	 font-size: 20px; 
+	 display: block;
+	 background: purple; 
+	 color: white;
+}
+
+span.item-titre:first-letter {
+	font-size: 25px;
+}
+
+div.item:hover  span.item-titre
+{
+	background: #C3C3C3;
+	color: purple;
+}
+
+div.item a {
+	position: relative;
+	display: block;
+}
+
+div#venteoccasion {
+	padding-left: 10px;
+	background: url("/images/fondblancgris2.png");
+	background-repeat: repeat-y;
+}
+div.vento {
+	}
+	
+div.vento p.titre-services {
+	background: url("/images/vehiculesneufs/fondventeneuf.png");
+	background-repeat: repeat-y;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 13px;
+	padding-top: 3px;
+	color: white;	
+}
+div.slide-item-image {
+	
+}
+
+div.diaporama11 div.block-content {
+	padding-left: 20px;
+	padding-top: 0px;
+		
+}
+div#diaporama-11 div.block-content div.slides div.slides_container {
+	weight: 400px;
+	height: 400px;	
+}
+div.diaporama11 div.block-content img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #332e71;	
+}
+div#diaporama-11 div.block-content div.slides ul.pagination {
+	margin-bottom: 60px;
+	margin-left: 2px;
+	padding: 0 5px;
+}
+div.texte-diaporama11 div.content {
+	padding-left: 40px;
+	font-size: 14px;
+	padding-top: 0px;
+}
+
+div.texte-diaporama11 div.pointeur a.pointeur11 {
+	padding-top: 10px;
+	padding-left: 40px;
+	font-size: 14px;
+	color: #0066cc;
+}
+div.rachat-reprise div.block-content {
+	background-color: #332e71;
+}
+div.rachat-reprise div.block-content p.texte21 {
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: white;
+}
+div.rachat-contact div.block-content {
+	background-color: #332e71;
+}
+div.rachat-contact div.block-content p.texte22 {
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 18px;
+	color: white;
+}
+div#diaporama-jdm-21 div.block-content div.slides div.slides_container {
+	weight: 280px;
+	height: 202px;	
+}
+div.diaporama21 div.block-content {
+	padding-left:5px;
+	margin-top: -50px;
+}
+div.diaporama21 div.block-content img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #332e71;
+}
+div#diaporama-jdm-21 div.block-content div.slides ul.pagination {
+	margin-bottom: -40px;
+	margin-left: 2px;
+	padding: 0 5px;
+}
+div.texte-diaporama21 {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+div.texte-diaporama21 div.content  {
+	padding-left: 25px;
+	margin-top: 0px;
+	font-size: 14px;
+}
+
+div.texte-diaporama21 div.pointeur a.pointeur21 {
+	margin-top: 10px;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #0066cc;
+}
+div#diaporama-jdm-22 div.block-content div.slides div.slides_container {
+	weight: 280px;
+	height: 202px;	
+}
+div.diaporama22 div.block-content {
+	padding-left:5px;
+	margin-top: -35px;
+}
+div.diaporama22 div.block-content img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #332e71;
+}
+div#diaporama-jdm-22 div.block-content div.slides ul.pagination {
+	margin-bottom: -40px;
+	margin-left: 2px;
+	padding: 0 5px;
+}
+div.texte-diaporama22 div.content {
+	padding-left: 25px;
+	padding-top: 0px;
+	font-size: 14px;
+}
+
+div.texte-diaporama22 div.pointeur a.pointeur22 {
+	margin-top: 10px;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #0066cc;
+}
+div#diaporama-jdm-23 div.block-content div.slides div.slides_container {
+	weight: 280px;
+	height: 202px;	
+}
+div.diaporama23 div.block-content {
+	padding-left:5px;
+	margin-top: -20px;
+}
+div.diaporama23 div.block-content img {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #332e71;
+}
+div#diaporama-jdm-23 div.block-content div.slides ul.pagination {
+	margin-bottom: -40px;
+	margin-left: 2px;
+	padding: 0 5px;
+}
+div.texte-diaporama23 div.content {
+	padding-left: 25px;
+	padding-top: 0px;
+	font-size: 14px;
+}
+
+div.texte-diaporama23 div.pointeur a.pointeur23 {
+	margin-top: 0px;
+	padding-left: 30px;
+	font-size: 14px;
+	color: #0066cc;
+}

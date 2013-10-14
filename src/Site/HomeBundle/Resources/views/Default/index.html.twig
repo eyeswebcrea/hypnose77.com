@@ -1,0 +1,113 @@
+{% extends "::base.html.twig" %}
+
+
+{% block stylesheets %}
+	    {% 
+        		stylesheets output='css/index.css' 
+        		'@SiteHomeBundle/Resources/public/css/index.css'
+        %}        		
+        	<link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="screen" />
+        {% endstylesheets %}
+{% endblock %}
+
+{% block body %}
+			
+				 <div class="span-24"id="conteneur-index">
+		    		<div class="span-8 images-list">
+		    				<div class="specialiste-item span-7 block block-3-line" id="mecanique-2">
+		    					<div class="block-content">
+		    						<img src="/images/index/logorvcarsousbandeau.png" alt="logorvcar">
+		    						<p class="specialiste">Spécialistes reconnus</p>
+		    						<p class="specialiste">et qualifiés mécanique auto</p>
+		    					</div>
+		    				</div>
+		    		
+		    				<div class="reparation-item span-7 block block-6-line" id="reparation-item-1">
+		    					<div class="block-content">
+		    						<p class="center-titre">Service Réparation</p>
+		    						<img src="/images/index/bohnomme.png" alt="Service Garage">	
+		    					</div>
+		    				</div>
+		    				<div class="service-item span-8 block block-2-line" id="service-item-1">
+		    					<div class="block-content">
+		    						<img src="/images/index/dispopartel.png" class="photo1" alt="Service">
+		    						<img src="/images/index/24247jsurs7.png" class="photo2"	alt="2424">
+		    					</div>
+		    				</div>
+		    				<div class="location-item span-7 block block-2-line" id="location-item-1">
+		    					<div class="block-content">
+		    						{% for rubrique in boucleRubriques({ "idRubrique" : 31 }) %}						
+									<div class="content">{{ rubrique.getTexte() | raw }}</div>
+									{% endfor %}
+		    					</div>
+		    				</div>
+		    		</div>
+		    		<div class="span-5 mecanique-list">		
+		    				<div class="agrement-qualite-item span-5 block block-3-line" id="agrement-qualite-1">
+		    					<div class="block-content">
+		    						<img src="/images/index/ecusson.png" alt="Agrément Qualité">
+		    					</div>
+		    				</div>
+		    				<div class="reparation span-5 block block-6-line" id="reparation-2">
+		    					<div class="block-content">
+		    						<img src="/images/index/toutesmarques.png" alt="reparationttm">
+		    						<div class="textdeco">
+		    							<img src="/images/index/flecherouge.png" class="fleche1" alt="flecherouge">
+			    						<p class="reparation-1">Devis Immédiat (et gratuit)</p>
+			    						<img src="/images/index/flecherouge.png" class="fleche2" alt="flecherouge">
+			    						<p class="reparation-2">80% des pannes </p>
+			    						<p class="reparation-3">réglées dans </p>
+			    						<p class="reparation-4">l'heure</p>
+		    						</div>
+		    					</div>
+		    				</div>
+		    				<div class="service2 span-5 block block-2-line" id="service-2">
+		    					<div class="block-content">
+		    						<img src="/images/index/mainlocation.png" alt="mainlocation">
+		    					</div>
+		    				</div>
+		    				<div class="location span-5 block block-2-line impaire" id="location-2">
+		    					<div class="block-content">
+			    					<p class="location-1">Locations de voitures</p>
+			    					<p class="location-2">sans permis</p>
+		    					</div>
+		    				</div>
+		    		</div>				
+					<div class="span-10 vente">
+		    				<div class="span-10 vente-list">
+		    					<div class="vente-neuf-occasion span-5 block block-2-line" id="vente-1-1">
+		    						<div class="block-content">
+			    						<p class="special-1">Ventes Véhicules</p>
+			    						<p class="special-2">Neufs / Occasions</p>
+			    						<a class="pointeur1" href="ventedetail.html.twig"></a>
+		    						</div>
+		    					</div>
+		    					<div class="financement span-4 block block-2-line" id="vente-1-2">
+		    						<div class="block-content">
+		    							<img src="/images/index/possibilitefinancement2.png" alt="financement">
+		    						</div>
+		    					</div>
+		    				</div>
+		    				
+		    			{% set idRubriqueBandeau = 6 %}
+		    				<div class="diaporama span-10 block block-6-line" id="diaporama-3">
+		    					<div class="block-content">
+		    				{{ getSpipJquerySlider(idRubriqueBandeau, { "forceResize" : true, "width" : 380, "height" : 285,  texte: false }) | raw }}
+		    					</div>
+		    				</div>
+		    				<div class="vente-3 span-11 block block-5-line paire" id="vente-3">
+		    					<div class="vente-3-image span-5 block block-5-line" id="vente-3-1">
+		    						<img src="/images/index/depotvente.png" alt="vente-3">
+		    					</div>
+		    					<div class="vente-3-suite span-5 block block-5-line" id="vente-3-2">
+		    						<img src="/images/index/pd.png" alt="piecedetache">
+		    						<p class="piecedet-1">Piéces détachées</p>
+		    						<p class="piecedet-2">Vente et pose</p>
+		    					</div>
+		    				</div>
+		    				
+		    		</div>
+		    </div>
+		
+{% endblock %}
+

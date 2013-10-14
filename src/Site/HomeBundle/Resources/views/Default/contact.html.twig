@@ -1,0 +1,50 @@
+{% extends "::base.html.twig" %}
+
+{% block stylesheets %}
+	    {% 
+        		stylesheets output='css/contact.css' 
+        		'@SiteHomeBundle/Resources/public/css/contact.css'
+        %}        		
+        	<link rel="stylesheet" href="{{ asset_url }}" type="text/css" media="screen" />
+        {% endstylesheets %}
+{% endblock %}
+
+
+{% block bandeau %} {% endblock %}
+
+{% block body %}
+<div id="contact" class="span-24" >
+	<div class="span-12">
+		<div id="formulaire-contact" class="span-10 prepend-1 prepend-top">
+			<fieldset class="formulaire">
+				<legend> Nous contacter </legend>
+			
+					<form action="#" method="post">
+Merci de bien vouloir indiquer votre numéro de téléphone, ainsi que votre adresse compl&egrave;te dans le corps du message.
+					{% render "IHQSContactBundle:Contact:form" %}
+				</form>
+			</fieldset>
+		</div>
+		<div id="infodiverses" class="span-9 prepend-2">
+			<p class="texte1">Accessibilité / Transport proche Paris</p>
+			<p class="texte2">à 5 mn du Pont de Boulogne</p>
+			<p class="texte3">à 5 mn de Porte de Versailles</p>
+			<p class="texte4">à 10 mn de Porte de Saint Cloud</p>
+			<a class="pointeur1" href="http://www.ratp.fr/itineraires/fr/ratp/recherche-avancee" target="_blank">Accés RATP</a>
+		</div>
+	</div>
+	<div id="plan-acces" class="span-10 prepend-1 prepend-top block block-8-line">
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=128+Avenue+Jean+Jaur%C3%A8s,+92140+Clamart&amp;aq=0&amp;oq=128+Jean+Jaures+92140&amp;sll=48.61899,2.975666&amp;sspn=1.57603,4.048462&amp;ie=UTF8&amp;hq=&amp;hnear=128+Avenue+Jean+Jaur%C3%A8s,+92140+Clamart,+Hauts-de-Seine,+%C3%8Ele-de-France&amp;t=m&amp;z=14&amp;ll=48.807624,2.268151&amp;output=embed"></iframe>
+	
+	</div>
+	<div class="span-10 prepend-1 prepend-top last append-bottom" id="contact">
+			{% for article in boucleArticles({ "idArticle" : 3 }) %}
+				<h2 class="block-title">{{ article.titre }}</h2>
+				<div class="block-content">
+					{{ article.texte | raw }}
+				</div>
+			{% endfor %}
+	</div>
+	
+</div>	
+{% endblock %}

@@ -1,0 +1,240 @@
+span.item-titre {
+	font-family: 'Prosto One', cursive; 
+	font-weight: bold;
+	 position: absolute; 
+	 bottom: 20px; 
+	 left: 2px;
+	 width: 100%;
+
+	 padding-top: 2px; 
+	 padding-bottom: 2px; 
+	 text-align: center; 
+	 text-decoration: none; 
+	 font-size: 20px; 
+	 display: block;
+	 background: purple; 
+	 color: white;
+}
+
+span.item-titre:first-letter {
+	font-size: 25px;
+}
+
+div.item:hover  span.item-titre
+{
+	background: #C3C3C3;
+	color: purple;
+}
+
+div.item a {
+	position: relative;
+	display: block;
+}
+div#conteneur-index {
+	background-image: url("/images/modelefondcentralcadre6.png");
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-top: 3px solid #332e71;
+}
+div.specialiste-item div.block-content img {
+	padding-left: 30px;
+}
+
+div.specialiste-item div.block-content  p {
+	font-size: 16px;
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-left: 36px;	
+}
+
+
+div.reparation-item div.block-content p {
+	font-size: 25px;
+	text-align: left;
+	font-family: Arial;
+	font-weight: bold;
+	margin-top: 10px;
+	text-decoration: underline;
+	padding-left: 20px;	
+}
+div.reparation-item div.block-content img {
+	margin-top: -30px;
+	padding-left: 40px
+}
+div.service-item div.block-content img.photo1 {
+	margin-top: -60px;
+	padding-top: 0px;
+	padding-left: 20px;
+}
+div.service-item div.block-content img.photo2 {
+	margin-top: -50px;
+	padding-top: 0px;
+}
+div.location-item div.block-content div.content {
+	padding-left: 20px;
+	margin-top: -38px;
+}
+
+div.agrement-qualite-item div.block-content img {
+	padding-top: 15px;
+	padding-left: 10px;
+	color: white;
+}
+
+div.reparation div.block-content img {
+	margin-left: -50px;
+	margin-top: -10px;
+}
+
+div.reparation div.block-content div.textdeco img.fleche1 {
+	margin-top: 30px;
+	margin-left: -105px;
+}
+div.reparation div.block-content div.textdeco img.fleche2 {
+	margin-top: -5px;
+	margin-left: -105px;
+}
+div.reparation div.block-content div.textdeco p {
+	margin-top: -45px;
+	margin-left: -25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+div.reparation div.block-content div.textdeco p.reparation-1 {
+	margin-top: -60px;
+	margin-left: -25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+div.reparation div.block-content div.textdeco p.reparation-2 {
+	margin-top: -65px;
+	margin-left: -25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+div.reparation div.block-content div.textdeco p.reparation-3 {
+	padding-top: 5px;
+	margin-left: -25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+div.reparation div.block-content div.textdeco p.reparation-4 {
+	padding-top: 5px;
+	margin-left: -25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+div.service2 {
+	padding-top: 0px;
+}
+
+div.service2 div.block-content img {
+	padding-left: 10px;
+}
+
+div.location {
+	padding-top: 0px;
+}
+div.location div.block-content p.location-1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 5px;
+	text-decoration: underline;
+	margin-left: -35px;
+	padding-top: 20px;
+}
+div.location div.block-content p.location-2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 5px;
+	margin-left: 0px;
+}
+
+div.vente-neuf-occasion div.block-content p.special-1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+div.vente-neuf-occasion div.block-content p.special-2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-top: -25px;
+}
+div.vente-neuf-occasion div.block-content a.pointeur1 {
+	padding-top: 10px;
+	padding-left: 40px;
+	font-size: 14px;
+	color: #0066cc;
+}
+
+div.financement div.block-content img {
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+div#diaporama-3 div.slides_container, div.slides  { 
+	height: 285px;
+	width: 380px;	
+}
+div#diaporama-3 div.block-content {
+	padding-left: 7px;
+	margin-top: 12px;
+}
+div#diaporama-3 div.block-content img {
+
+}
+div#diaporama-3 div.block-content div.slides ul.pagination {
+	margin-bottom: -58px;
+	margin-left: 2px;
+	padding: 0 5px;
+} 
+div.vente-3 div.vente-3-image img {
+	margin-left: -20px;
+	padding-top: 10px;
+}
+
+div.vente-3 div.vente-3-suite img {
+	margin-left: 40px;
+	padding-top: 10px;
+}
+
+div.vente-3 div.vente-3-suite p.piecedet-1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 5px;
+	padding-left: 30px;
+	text-decoration: underline;
+}
+
+div.vente-3 div.vente-3-suite p.piecedet-2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 5px;
+	padding-left: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
